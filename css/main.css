@@ -206,7 +206,7 @@ footer {
 }
 
 .project-description {
-  margin-bottom: 20px 0;
+  margin-bottom: 20px;
 }
 
 #profile-image {
@@ -763,7 +763,7 @@ footer .social-icons {
   }
 
   /* Skills */
-  
+
   .skills-wrapper {
     padding: 0 100px;
   }
