@@ -258,14 +258,14 @@ header nav a:hover {
   font-family: "Montserrat", sans-serif;
   color: #241f19;
   font-weight: 300;
-  font-size: 1.65em;
+  font-size: 1.4em;
   line-height: 1.25em;
 }
 
 .mariana {
   font-family: "Cinzel", serif;
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #86756a;
   padding-left: 30px;
 }
@@ -273,16 +273,12 @@ header nav a:hover {
 .venancio {
   font-family: "Cinzel", serif;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #86756a;
 }
 
 .third-line {
   padding-left: 20px;
-}
-
-.fourth-line {
-  padding-left: 40px;
 }
 
 .job-title {
@@ -374,8 +370,14 @@ header nav a:hover {
   color: #86756a;
 }
 
+/* About */
+
 .profile-image {
   width: 90%;
+}
+
+.about-text {
+  text-align: left;
 }
 
 footer {
@@ -410,9 +412,9 @@ footer a:hover {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 0 80px;
+  padding: 0 40px;
 }
 
 .social-icons p {
@@ -573,6 +575,13 @@ footer .copyright {
     padding: 0 10px;
   }
 
+  /* Hero Area */
+
+  .fourth-line {
+    padding-left: 40px;
+  }
+
+
  /* Projects */
  
  .portfolio-wrapper {
@@ -642,9 +651,11 @@ footer .copyright {
   font-size: 1.75em;
 }
 
-footer .social-icons {
-  padding: 0 150px;
+.social-icons p {
+  font-size: 3em;
+  padding: 0 80px;
 }
+
 
 }
 
@@ -685,14 +696,18 @@ footer .social-icons {
   /* About */
 
   #about img {
-    width: 60%;
+    width: 75%;
+  }
+
+  #about p {
+    font-size: 1em;
   }
 
 
   /* Footer */
 
   footer .social-icons {
-    padding: 0 220px;
+    padding: 0 150px;
   }
 }
 
@@ -758,10 +773,6 @@ footer .social-icons {
   footer a {
     padding-top: 30px;
     font-size: 1.2em;
-  }
-
-  .social-icons p {
-    font-size: 2.5em;
   }
 
   /* Skills */
