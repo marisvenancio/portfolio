@@ -120,7 +120,7 @@ h1 {
 h2 {
   color: #86756a;
   font-family: 'Cormorant SC', serif;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   line-height: 1;
   font-weight: 600;
   width: 100%;
@@ -184,30 +184,33 @@ nav {
 
 #projects {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
+.portfolio-item h3 {
+  padding-top: 20px;
+}
+
+.project-link {
+  margin: 40px 0;
+}
+
+.project-description {
+  margin-bottom: 20px;
+}
 
 #skills {
-  padding-top: 20px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 #about {
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
 footer {
   padding: 30px 0px 10px 0;
-}
-
-.project-link {
-  margin-top: 10px;
-}
-
-.project-description {
-  margin-bottom: 20px;
 }
 
 #profile-image {
@@ -332,7 +335,7 @@ header nav a:hover {
 
 .project-link {
   font-family: 'Montserrat', serif;
-  font-size: .90em;
+  font-size: 1em;
   text-transform: uppercase;
   color: #ede9e6;
   background-color: #241f19;
@@ -689,7 +692,7 @@ footer .copyright {
   /* Hero Area */
 
   .main-title h1 {
-    font-size: 2.9em;
+    font-size: 3em;
   }
 
 
