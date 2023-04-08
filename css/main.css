@@ -697,9 +697,14 @@
     }
   
     /* Hero Area */
+
+    #page-title {
+      padding-top: 40px;
+      padding-bottom: 70px;
+    }
   
     .main-title h1 {
-      font-size: 3em;
+      font-size: 3.5em;
     }
   
   
@@ -736,9 +741,14 @@
     }
   
     /* Hero Area */
+
+    #page-title {
+      padding-top: 90px;
+      padding-bottom: 110px;
+    }
   
     .main-title h1 {
-      font-size: 3.9em;
+      font-size: 4.5em;
     }
   
     /* Font Styles */
@@ -768,11 +778,11 @@
     }
   
     #about p {
-      font-size: 1.1em;
+      font-size: 1.5em;
     }
   
     footer .contact-title {
-      font-size: 2em;
+      font-size: 2.5em;
     }
   
     footer a {
